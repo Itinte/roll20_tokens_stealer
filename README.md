@@ -12,7 +12,7 @@ python scrap_url_cmd.py --url https://marketplace.roll20.net/browse/set/5248/bos
 ```
 - detour scrapped images with a pre-trained Unet
 ```
-python detour_cmd.py --src 'C:/Users/qbblo/Desktop/Programmation/roll20/roll20_scrapper/scrapping_results/' --tgt 'C:/Users/qbblo/Desktop/Programmation/roll20/roll20_detour/predictions/' --model 'C:/Users/qbblo/Desktop/Programmation/roll20/roll20_detour/model/unet_2classes.h5'
+python detour_cmd.py --src 'SRC_PATH/scrapping_results/' --tgt 'TGT_PATH/roll20_detour/predictions/' --model 'MODEL_PATH/model/unet_2_06.h5'
 ```
 
 /!\ Unet pre-trained weights and training data are not shared in this repository
